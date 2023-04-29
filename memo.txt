@@ -1,0 +1,20 @@
+
+npm init -y
+npm install typescript @types/node ts-node rxjs
+
+src/
+  ├── domain/
+  │   ├── product.ts
+  │   ├── productRegisteredEvent.ts
+  │   └── domainEvent.ts
+  ├── infrastructure/
+  │   ├── productRepository.ts
+  │   └── actor.ts
+  ├── usecase/
+  │   ├── registerProducts.ts
+  │   └── displayProducts.ts
+  └── main.ts
+
+実行
+npm start get
+npm start post
